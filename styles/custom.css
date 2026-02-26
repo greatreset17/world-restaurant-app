@@ -1,0 +1,309 @@
+/* ===========================
+   Global Dark Theme
+   =========================== */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
+
+body,
+.stApp {
+    background-color: #0f1117 !important;
+    color: #e8eaf0 !important;
+    font-family: 'Noto Sans JP', sans-serif !important;
+}
+
+h1,
+h2,
+h3 {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #161926 !important;
+    border-right: 1px solid #2d3148;
+}
+
+[data-testid="stSidebar"] * {
+    color: #c8cad8 !important;
+}
+
+/* ===========================
+   Restaurant Cards
+   =========================== */
+.restaurant-card {
+    background: linear-gradient(145deg, #1a1d2e, #1f2340);
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+    border: 1px solid #2d3148;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.restaurant-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 36px rgba(80, 60, 200, 0.25);
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-body {
+    padding: 16px 20px 20px;
+}
+
+.card-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 8px 0;
+}
+
+.country-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #6d28d9, #4f46e5);
+    color: #ffffff;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 999px;
+    margin-bottom: 10px;
+    letter-spacing: 0.04em;
+}
+
+.region-badge {
+    display: inline-block;
+    background: rgba(99, 102, 241, 0.2);
+    color: #a5b4fc;
+    font-size: 0.68rem;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 999px;
+    margin-left: 6px;
+    margin-bottom: 10px;
+}
+
+.station-info {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #94a3b8;
+    font-size: 0.82rem;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 0.83rem;
+    color: #94a3b8;
+    line-height: 1.55;
+    margin-bottom: 12px;
+}
+
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.tag {
+    font-size: 0.70rem;
+    font-weight: 500;
+    padding: 3px 9px;
+    border-radius: 999px;
+    white-space: nowrap;
+}
+
+.tag-embassy {
+    background: rgba(245, 158, 11, 0.2);
+    color: #fbbf24;
+}
+
+.tag-expo {
+    background: rgba(16, 185, 129, 0.2);
+    color: #34d399;
+}
+
+.tag-halal {
+    background: rgba(52, 211, 153, 0.2);
+    color: #6ee7b7;
+}
+
+.tag-vege {
+    background: rgba(134, 239, 172, 0.2);
+    color: #86efac;
+}
+
+.tag-reserve {
+    background: rgba(239, 68, 68, 0.2);
+    color: #fca5a5;
+}
+
+.tag-family {
+    background: rgba(251, 191, 36, 0.2);
+    color: #fde68a;
+}
+
+.tag-wine {
+    background: rgba(192, 132, 252, 0.2);
+    color: #d8b4fe;
+}
+
+.tag-beer {
+    background: rgba(251, 146, 60, 0.2);
+    color: #fdba74;
+}
+
+.tag-terrace {
+    background: rgba(56, 189, 248, 0.2);
+    color: #7dd3fc;
+}
+
+.tag-takeout {
+    background: rgba(99, 102, 241, 0.2);
+    color: #a5b4fc;
+}
+
+.tag-default {
+    background: rgba(100, 116, 139, 0.2);
+    color: #94a3b8;
+}
+
+.results-count {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin-bottom: 16px;
+}
+
+.section-divider {
+    border: none;
+    border-top: 1px solid #2d3148;
+    margin: 20px 0;
+}
+
+.no-results {
+    text-align: center;
+    padding: 48px 0;
+    color: #475569;
+    font-size: 1rem;
+}
+
+/* Google Maps link button */
+.maps-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 14px;
+    padding: 7px 14px;
+    background: rgba(124, 58, 237, 0.12);
+    color: #a78bfa;
+    border: 1px solid rgba(124, 58, 237, 0.35);
+    border-radius: 8px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    transition: background 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+}
+
+.maps-btn:hover {
+    background: rgba(124, 58, 237, 0.28);
+    box-shadow: 0 0 10px rgba(124, 58, 237, 0.35);
+    color: #c4b5fd;
+    text-decoration: none;
+}
+
+
+/* ===========================
+   Responsive / Mobile
+   =========================== */
+
+/* タブレット以下（768px） */
+@media (max-width: 768px) {
+
+    /* ヒーロータイトル縮小 */
+    .hero-title {
+        font-size: 1.8rem !important;
+        letter-spacing: 0.02em !important;
+    }
+
+    .hero-sub {
+        font-size: 0.72rem !important;
+        letter-spacing: 0.08em !important;
+        flex-wrap: wrap;
+        gap: 4px;
+    }
+
+    /* Streamlit のカラムを縦積みに強制 */
+    [data-testid="stHorizontalBlock"] {
+        flex-direction: column !important;
+    }
+
+    [data-testid="stHorizontalBlock"]>[data-testid="stColumn"] {
+        width: 100% !important;
+        flex: 1 1 100% !important;
+        min-width: 100% !important;
+    }
+
+    /* カード画像を少し低く */
+    .card-image {
+        height: 160px;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    /* エリアトグルを縦に */
+    [data-testid="stRadio"]>div {
+        flex-direction: column !important;
+        gap: 4px;
+    }
+}
+
+/* スマホ（480px以下） */
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 1.45rem !important;
+    }
+
+    .hero-sub {
+        display: none !important;
+        /* サブタイトルは省略 */
+    }
+
+    /* メインコンテンツの横パディングを縮小 */
+    .stApp>div {
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }
+
+    /* カード */
+    .card-image {
+        height: 140px;
+    }
+
+    .card-body {
+        padding: 12px 14px 16px;
+    }
+
+    .card-title {
+        font-size: 0.95rem;
+    }
+
+    .description {
+        font-size: 0.78rem;
+    }
+
+    .tag {
+        font-size: 0.64rem;
+        padding: 2px 7px;
+    }
+
+    /* 地図の高さを小さく */
+    iframe {
+        height: 280px !important;
+    }
+}
