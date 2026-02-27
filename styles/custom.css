@@ -307,3 +307,19 @@ h3 {
         height: 280px !important;
     }
 }
+
+/* ===========================
+   Geolocation Component — 白いボックスを非表示
+   =========================== */
+[data-testid="stCustomComponentV1"] {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+[data-testid="stCustomComponentV1"] iframe {
+    background: transparent !important;
+    border: none !important;
+    height: 80px !important;
+    min-height: 0 !important;
+}

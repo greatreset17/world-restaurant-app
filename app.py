@@ -198,13 +198,9 @@ with map_col:
     user_lat = st.session_state.get("user_lat")
     user_lng = st.session_state.get("user_lng")
 
-    # 現在地があればそこを中心に、なければエリア中心
-    if user_lat and user_lng:
-        center = (user_lat, user_lng)
-        zoom = 14
-    else:
-        center = AREA_CENTERS[selected_area]
-        zoom = 12
+    # 常にエリア中心で表示（現在地は赤マーカーで別途表示）
+    center = AREA_CENTERS[selected_area]
+    zoom = 12
 
     m = folium.Map(
         location=center,
