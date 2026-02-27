@@ -158,13 +158,12 @@ with st.sidebar:
     all_tags = sorted(set(tag for r in area_restaurants for tag in r["tags"]))
     selected_tags = st.multiselect("🏷 特徴タグ", options=all_tags, placeholder="すべてのタグ", key="sel_tags")
 
-    st.markdown("<hr class='section-divider'>", unsafe_allow_html=True)
-
-    if st.button("🔄 フィルターをリセット", use_container_width=True):
+    def reset_filters():
         st.session_state["sel_regions"] = []
         st.session_state["sel_countries"] = []
         st.session_state["sel_tags"] = []
-        st.rerun()
+
+    st.button("🔄 フィルターをリセット", use_container_width=True, on_click=reset_filters)
 
 # ─────────────────────────────────────────────
 # Apply filters
