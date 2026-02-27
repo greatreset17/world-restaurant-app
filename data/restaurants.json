@@ -1510,5 +1510,77 @@
         "address": "東京都渋谷区渋谷2-24-12 渋谷スクランブルスクエア 12F",
         "image_url": "https://picsum.photos/seed/carvaan/600/400",
         "description": "渋谷スクランブルスクエア12Fの地中海・アラビア料理レストラン。スパイス香るレバント料理とアラビア風のインテリアで非日常を演出。渋谷の夜景とともに中東の美食体験を。"
+    },
+    {
+        "id": 84,
+        "name": "THE APOLLO（アポロ）銀座",
+        "area": "関東",
+        "country": "ギリシャ",
+        "region": "南欧",
+        "tags": [
+            "テラス席あり",
+            "ワインセレクションあり"
+        ],
+        "nearest_station": "銀座",
+        "walk_minutes": 1,
+        "lat": 35.6718,
+        "lng": 139.7649,
+        "address": "東京都中央区銀座5-2-1 東急プラザ銀座 11F",
+        "image_url": "https://picsum.photos/seed/apollo_ginza/600/400",
+        "description": "シドニー発のモダンギリシャレストランが東急プラザ銀座11Fに上陸。ムサカ・シーフードメッゼ・ギリシャワインをスタイリッシュな空間で。銀座駅から徒歩1分の好立地。"
+    },
+    {
+        "id": 85,
+        "name": "ギリシャ料理 風の蔵（KAZE NO KURA）",
+        "area": "関東",
+        "country": "ギリシャ",
+        "region": "南欧",
+        "tags": [
+            "家族経営",
+            "隠れ家"
+        ],
+        "nearest_station": "東新宿",
+        "walk_minutes": 3,
+        "lat": 35.6934,
+        "lng": 139.7068,
+        "address": "東京都新宿区新宿",
+        "image_url": "https://picsum.photos/seed/kazenokura/600/400",
+        "description": "創業40年超の東京老舗ギリシャ料理店。ムサカ・スブラキ・タラモサラタなどギリシャ家庭料理の定番が揃い、在日ギリシャ人も通う本物の味。東新宿駅から徒歩3分の隠れ家。"
+    },
+    {
+        "id": 86,
+        "name": "SPYRO'S（スピローズ）蒲田",
+        "area": "関東",
+        "country": "ギリシャ",
+        "region": "南欧",
+        "tags": [
+            "大使館職員御用達",
+            "家族経営"
+        ],
+        "nearest_station": "蒲田",
+        "walk_minutes": 5,
+        "lat": 35.5633,
+        "lng": 139.716,
+        "address": "東京都大田区蒲田",
+        "image_url": "https://picsum.photos/seed/spyros/600/400",
+        "description": "元六本木の名店がギリシャ大使館関係者から愛された実力を携えて蒲田へ移転。ムサカ・ラムチョップ・ギリシャサラダなど本格料理がアットホームな雰囲気で楽しめる。"
+    },
+    {
+        "id": 87,
+        "name": "Phili（フィリ）浅草橋",
+        "area": "関東",
+        "country": "ギリシャ",
+        "region": "南欧",
+        "tags": [
+            "家族経営",
+            "ベジタリアンメニューあり"
+        ],
+        "nearest_station": "浅草橋",
+        "walk_minutes": 3,
+        "lat": 35.6985,
+        "lng": 139.7913,
+        "address": "東京都台東区浅草橋",
+        "image_url": "https://picsum.photos/seed/phili_greek/600/400",
+        "description": "浅草橋のアットホームなギリシャ家庭料理店。ギリシャ人オーナーによる手作りムサカ・スパナコピタ（ほうれん草パイ）・ヨーグルトデザートが人気。"
     }
 ]
