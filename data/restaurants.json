@@ -15,7 +15,7 @@
         "lat": 35.6736,
         "lng": 139.739,
         "address": "東京都港区赤坂2-12-11 シャルマン赤坂 2F",
-        "image_url": "https://source.unsplash.com/600x400/?hungarian+goulash+food&sig=1",
+        "image_url": "https://loremflickr.com/600/400/hungarian,food,goulash?lock=1",
         "description": "駐日ハンガリー大使も推奨する赤坂の老舗。グヤーシュ、パプリカチキン、ソーセージ盛合せが看板。ハンガリー産ワインも充実。"
     },
     {
@@ -34,7 +34,7 @@
         "lat": 35.6495,
         "lng": 139.72,
         "address": "東京都渋谷区広尾5-2-25 本国ビルB1",
-        "image_url": "https://source.unsplash.com/600x400/?middle+eastern+food+arabic&sig=2",
+        "image_url": "https://loremflickr.com/600/400/middle-eastern,food,arabic?lock=2",
         "description": "シリア人シェフによる本格アラビア料理。ハラール認証肉を使用、豚肉不使用。大使館街・広尾のランドマーク的存在。"
     },
     {
@@ -52,7 +52,7 @@
         "lat": 35.6475,
         "lng": 139.698,
         "address": "東京都目黒区東山1-3-1",
-        "image_url": "https://source.unsplash.com/600x400/?ethiopian+injera+food&sig=3",
+        "image_url": "https://loremflickr.com/600/400/ethiopian,food,injera?lock=3",
         "description": "創業35年以上、東京初のエチオピア料理専門店。伝統的なインジェラとドロワット（鶏煮込み）が絶品。現地ビール・ワイン完備。"
     },
     {
@@ -70,7 +70,7 @@
         "lat": 35.6767,
         "lng": 139.7436,
         "address": "東京都千代田区永田町2丁目",
-        "image_url": "https://source.unsplash.com/600x400/?polish+food+pierogi&sig=4",
+        "image_url": "https://loremflickr.com/600/400/polish,food?lock=4",
         "description": "2024年10月オープン。中世から受け継がれるポーランドの伝統レシピをシェフが現代的に昇華したコース料理。国会議事堂近く。"
     },
     {
@@ -88,7 +88,7 @@
         "lat": 35.7006,
         "lng": 139.7407,
         "address": "東京都新宿区神楽坂",
-        "image_url": "https://source.unsplash.com/600x400/?world+cuisine+food&sig=5",
+        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=5",
         "description": "東京初の本格ジョージアレストラン。ヒンカリ（肉汁ジューシーな水餃子）、ハチャプリ（チーズパン）、コーカサスの自然派ワインが揃う。"
     },
     {
@@ -106,7 +106,7 @@
         "lat": 34.6742,
         "lng": 135.5013,
         "address": "大阪市中央区心斎橋",
-        "image_url": "https://source.unsplash.com/600x400/?ethiopian+injera+food&sig=6",
+        "image_url": "https://loremflickr.com/600/400/ethiopian,food,injera?lock=6",
         "description": "エチオピア出身の店長が関西弁で迎える温かい店。インジェラとドロワットが人気で、女性グループや外国人客にも大人気。"
     },
     {
@@ -124,7 +124,7 @@
         "lat": 34.706,
         "lng": 135.4968,
         "address": "大阪市北区 梅田スカイビルから徒歩2分",
-        "image_url": "https://source.unsplash.com/600x400/?moroccan+tagine+food&sig=7",
+        "image_url": "https://loremflickr.com/600/400/moroccan,food,tagine?lock=7",
         "description": "モロッコ人オーナーシェフによる梅田の本格モロッコ料理専門店。タジン・クスクスはハラール対応。店内はモロッコの空気感を再現。"
     },
     {
@@ -142,7 +142,7 @@
         "lat": 34.6748,
         "lng": 135.4948,
         "address": "大阪市西区",
-        "image_url": "https://source.unsplash.com/600x400/?world+cuisine+food&sig=8",
+        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=8",
         "description": "シュクメルリ・ヒンカリ・ハチャプリなどコーカサス料理と東欧料理が揃うおしゃれな隠れ家。スパイシーで濃厚な味わいが特徴。"
     },
     {
@@ -160,7 +160,7 @@
         "lat": 34.6687,
         "lng": 135.502,
         "address": "大阪市中央区 難波",
-        "image_url": "https://source.unsplash.com/600x400/?uzbek+plov+central+asian+food&sig=9",
+        "image_url": "https://loremflickr.com/600/400/central-asian,food,plov?lock=9",
         "description": "ウイグル出身シェフによるウズベク＆ウイグル料理。プロフ（炊き込みご飯）やラグマン（手打ち麺）がテレビでも話題になった名店。"
     },
     {
@@ -178,7 +178,7 @@
         "lat": 34.6726,
         "lng": 135.5005,
         "address": "大阪市中央区心斎橋周辺",
-        "image_url": "https://source.unsplash.com/600x400/?world+cuisine+food&sig=10",
+        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=10",
         "description": "大阪・関西万博で大人気を博したアフリカンダイニングが万博後に心斎橋に常設出店。マフェ・クスクス・ブロシェットなど大陸各地の料理を提供。"
     },
     {
@@ -197,7 +197,7 @@
         "lat": 34.605,
         "lng": 135.5133,
         "address": "大阪府大阪市住吉区苅田9-1-21 1F",
-        "image_url": "https://source.unsplash.com/600x400/?nepali+food+dal+bhat&sig=11",
+        "image_url": "https://loremflickr.com/600/400/nepali,food,curry?lock=11",
         "description": "万博出店でも噂されたネパール料理店。香り高いビリヤニと、ネパール式蒸し餃子モモが名物。本格スパイス使いが癖になる。"
     },
     {
@@ -216,7 +216,7 @@
         "lat": 34.6837,
         "lng": 135.506,
         "address": "大阪府大阪市中央区久太郎町3丁目1−27 ヒグチビル 1階 @Hub Kitchen内",
-        "image_url": "https://source.unsplash.com/600x400/?turkish+food+kebab&sig=12",
+        "image_url": "https://loremflickr.com/600/400/turkish,food,kebab?lock=12",
         "description": "万博関連でも話題になったシャワルマ専門店。本町のフードホール「Hub Kitchen」内に出店。ジューシーなケバブとトルコパンの組み合わせが絶品。"
     },
     {
@@ -234,7 +234,7 @@
         "lat": 34.7044,
         "lng": 135.4988,
         "address": "大阪府大阪市北区曾根崎1丁目6-23",
-        "image_url": "https://source.unsplash.com/600x400/?thai+food+pad+thai&sig=13",
+        "image_url": "https://loremflickr.com/600/400/thai,food,pad-thai?lock=13",
         "description": "万博タイパビリオンを運営したチームによる本格タイ料理店。グリーンカレーとパッタイは絶品。梅田の中心に位置するアクセス抜群の一軒。"
     },
     {
@@ -252,7 +252,7 @@
         "lat": 34.6686,
         "lng": 135.5025,
         "address": "大阪府大阪市中央区道頓堀1-6-14 平松扇屋ビル B1F",
-        "image_url": "https://source.unsplash.com/600x400/?thai+food+pad+thai&sig=14",
+        "image_url": "https://loremflickr.com/600/400/thai,food,pad-thai?lock=14",
         "description": "「大阪のれんめぐり」参加の本格タイ料理。道頓堀の地下に広がる異国情緒あふれる空間で、トムヤムクンやソムタムが楽しめる。"
     },
     {
@@ -271,7 +271,7 @@
         "lat": 34.6807,
         "lng": 135.4891,
         "address": "大阪府大阪市西区靱本町1-4-2 プライム本町ビル 1F",
-        "image_url": "https://source.unsplash.com/600x400/?spanish+tapas+paella&sig=15",
+        "image_url": "https://loremflickr.com/600/400/spanish,food,tapas?lock=15",
         "description": "万博スペイン館とも縁の深い本格バスク料理レストラン。ピンチョスと炭火グリルが看板で、バスク産ワインのペアリングが堪能できる。"
     },
     {
@@ -290,7 +290,7 @@
         "lat": 34.668,
         "lng": 135.5327,
         "address": "大阪府大阪市東成区中道1丁目12-8",
-        "image_url": "https://source.unsplash.com/600x400/?world+cuisine+food&sig=16",
+        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=16",
         "description": "ガンビア出身オーナーによる西アフリカ料理＆ライブミュージックの店。ジョロフライスとプランテンフライが人気。万博でも出店・納品で注目を集めた。"
     },
     {
@@ -309,7 +309,7 @@
         "lat": 34.7065,
         "lng": 135.4943,
         "address": "大阪府大阪市北区大深町6-38 グラングリーン大阪北館 2F",
-        "image_url": "https://source.unsplash.com/600x400/?malaysian+food+noodles&sig=17",
+        "image_url": "https://loremflickr.com/600/400/malaysian,food?lock=17",
         "description": "うめきた新拠点グラングリーン大阪内に出店したムスリム対応アジアンダイニング。ロティ・チャナイやレンダンが看板。万博関係者にも愛される一軒。"
     },
     {
@@ -327,7 +327,7 @@
         "lat": 34.6786,
         "lng": 135.4983,
         "address": "大阪府大阪市西区西本町1-6-7",
-        "image_url": "https://source.unsplash.com/600x400/?pakistani+food&sig=18",
+        "image_url": "https://loremflickr.com/600/400/pakistani,food?lock=18",
         "description": "万博のリングサイドエリアにも出店した大阪のハラール認証パキスタン料理店。本格マトンカレーとビリヤニが名物。ムスリム旅行者にも大人気。"
     },
     {
@@ -346,7 +346,7 @@
         "lat": 34.6886,
         "lng": 135.5095,
         "address": "大阪府大阪市中央区北浜4-7-28 住友ビル2号館 1F",
-        "image_url": "https://source.unsplash.com/600x400/?world+cuisine+food&sig=19",
+        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=19",
         "description": "万博ベルギー館とも連携したブラッスリー。北浜川沿いのロケーションでベルギービールとムール貝のワイン蒸しを堪能できる。週末はテラス席が賑わう。"
     },
     {
@@ -364,7 +364,7 @@
         "lat": 34.7038,
         "lng": 135.5038,
         "address": "大阪府大阪市北区小松原町2-4 大阪富国生命ビル 1F",
-        "image_url": "https://source.unsplash.com/600x400/?world+cuisine+food&sig=20",
+        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=20",
         "description": "万博ベルギー館スタッフも通う梅田のベルギーパブ。300種以上のベルギービールとベルジャンポテトフリット（フリッツ）が自慢。"
     },
     {
@@ -382,7 +382,7 @@
         "lat": 34.701,
         "lng": 135.5111,
         "address": "大阪府大阪市北区天神橋4-7-29 扇町山一ビル 1階",
-        "image_url": "https://source.unsplash.com/600x400/?world+cuisine+food&sig=21",
+        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=21",
         "description": "万博マルタ館で提供されたフティーラ（マルタ伝統パン）を大阪で唯一製造・販売するベーカリー。地中海の小麦文化を大阪で体験できる希少スポット。"
     },
     {
@@ -400,7 +400,7 @@
         "lat": 34.693,
         "lng": 135.4956,
         "address": "大阪府大阪市北区中之島3-6-32 ダイビル本館 1F",
-        "image_url": "https://source.unsplash.com/600x400/?czech+food+svickova&sig=22",
+        "image_url": "https://loremflickr.com/600/400/czech,food?lock=22",
         "description": "中之島の歴史的建築ダイビル本館内に位置するチェコカフェ。万博チェコ館の運営も手がけたチームによる、ピルスナーと中欧菓子が楽しめる優雅な空間。"
     },
     {
@@ -419,7 +419,7 @@
         "lat": 34.6773,
         "lng": 135.6095,
         "address": "大阪府東大阪市花園本町1-7-14",
-        "image_url": "https://source.unsplash.com/600x400/?world+cuisine+food&sig=23",
+        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=23",
         "description": "万博リングサイドマーケットプレイスに出店した東アフリカ料理キッチン。スワヒリ語で「大丈夫」を意味する店名のとおり、温かみある家庭料理が揃う。"
     },
     {
@@ -438,7 +438,7 @@
         "lat": 34.7286,
         "lng": 135.3454,
         "address": "兵庫県西宮市林田町2-24",
-        "image_url": "https://source.unsplash.com/600x400/?world+cuisine+food&sig=24",
+        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=24",
         "description": "万博での活躍で一躍有名になった西宮の西アフリカ料理レストラン。ジョロフライス（西アフリカ風炊き込みご飯）が看板で、ガンビア出身シェフの腕が光る。"
     },
     {
@@ -457,7 +457,7 @@
         "lat": 34.6754,
         "lng": 135.1837,
         "address": "兵庫県神戸市中央区東川崎町1-6-1 MOSAIC 2階",
-        "image_url": "https://source.unsplash.com/600x400/?world+cuisine+food&sig=25",
+        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=25",
         "description": "神戸モザイク内の絶景ロケーションで楽しむルーマニア料理。万博ルーマニア館とも連携し、サルマーレ（ロールキャベツ）やルーマニアワインが揃う。"
     },
     {
@@ -475,7 +475,7 @@
         "lat": 34.6955,
         "lng": 135.4967,
         "address": "大阪府大阪市北区堂島2丁目1−31",
-        "image_url": "https://source.unsplash.com/600x400/?portuguese+food+bacalhau&sig=26",
+        "image_url": "https://loremflickr.com/600/400/portuguese,food?lock=26",
         "description": "万博ポルトガル館でも話題になった本格エッグタルト（パステル・デ・ナタ）専門店。堂島の好立地でリスボンの伝統菓子を毎日焼きたてで提供。"
     },
     {
@@ -494,7 +494,7 @@
         "lat": 34.7597,
         "lng": 135.518,
         "address": "大阪府吹田市円山町21-15",
-        "image_url": "https://source.unsplash.com/600x400/?world+cuisine+food&sig=27",
+        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=27",
         "description": "万博ブルンジ館向けカヌレを製造したことで話題になった吹田の小さなパン屋兼カフェ。アフリカのカカオを使ったスイーツも充実。"
     },
     {
@@ -512,7 +512,7 @@
         "lat": 34.701,
         "lng": 135.51,
         "address": "大阪府大阪市北区天神橋1-12-20",
-        "image_url": "https://source.unsplash.com/600x400/?taiwanese+food+dumplings&sig=28",
+        "image_url": "https://loremflickr.com/600/400/taiwanese,food?lock=28",
         "description": "万博台湾館で大人気を博したパインエッグタルトを大阪で提供する台湾菓子専門店。台湾式かき氷やパイナップルケーキも揃い、連日行列ができる。"
     },
     {
@@ -530,7 +530,7 @@
         "lat": 34.6854,
         "lng": 135.547,
         "address": "大阪府大阪市城東区中央3-4-13",
-        "image_url": "https://source.unsplash.com/600x400/?world+cuisine+food&sig=29",
+        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=29",
         "description": "万博ソマリア館にビスコッティを供給したことで話題になったパティスリー。ソマリアのスパイスを使った独創的な焼き菓子が揃う大阪城東のユニークな店。"
     },
     {
@@ -549,7 +549,7 @@
         "lat": 34.674,
         "lng": 135.5742,
         "address": "大阪府東大阪市長堂1-29-12",
-        "image_url": "https://source.unsplash.com/600x400/?world+cuisine+food&sig=30",
+        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=30",
         "description": "万博ルクセンブルク館と縁の深い東大阪のパン・菓子専門店。ヨーロッパ産小麦を使った本格パンとペストリーが並ぶ。地元の定番として愛されながら万博効果で知名度急上昇。"
     },
     {
@@ -568,7 +568,7 @@
         "lat": 35.6661,
         "lng": 139.7562,
         "address": "東京都港区新橋2-9-17 第三常盤ビル 2階",
-        "image_url": "https://source.unsplash.com/600x400/?world+cuisine+food&sig=31",
+        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=31",
         "description": "都内でも数少ない本格マルタ料理レストラン。万博マルタ館でも話題になったフティーラ（伝統パン）やウサギのシチューなど地中海の島国料理が楽しめる。"
     },
     {
@@ -586,7 +586,7 @@
         "lat": 35.7011,
         "lng": 139.741,
         "address": "東京都新宿区神楽坂3-6-63 佐藤ビル 2階",
-        "image_url": "https://source.unsplash.com/600x400/?world+cuisine+food&sig=32",
+        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=32",
         "description": "万博チェコ館・ハンガリー館とも縁の深い神楽坂の本格バー。チェコのレネカクテルとハンガリーの蒸留酒「パーリンカ」を中心に中欧のお酒が一堂に揃う。"
     },
     {
@@ -604,7 +604,7 @@
         "lat": 35.6393,
         "lng": 139.7942,
         "address": "東京都江東区有明2-1-8",
-        "image_url": "https://source.unsplash.com/600x400/?german+food+schnitzel+beer&sig=33",
+        "image_url": "https://loremflickr.com/600/400/german,food,schnitzel?lock=33",
         "description": "万博ドイツ館関連のクラフトビールブランドが運営する本格ドイツレストラン。ヴァイツェン・ラガーなど本場ビールをソーセージ盛合せやプレッツェルとともに楽しめる。"
     },
     {
@@ -622,7 +622,7 @@
         "lat": 35.6812,
         "lng": 139.7671,
         "address": "東京都千代田区丸の内1-9-1 JR東日本東京駅 B1",
-        "image_url": "https://source.unsplash.com/600x400/?italian+pasta+food&sig=34",
+        "image_url": "https://loremflickr.com/600/400/italian,food,pasta?lock=34",
         "description": "万博イタリア館とも連携した高品質イタリア食材マーケット＆レストラン。パスタ・チーズ・生ハム・ワインが一堂に揃い、イートインもテイクアウトも楽しめる。"
     },
     {
@@ -640,7 +640,7 @@
         "lat": 35.6853,
         "lng": 139.7627,
         "address": "東京都千代田区大手町1-5-5 OOTEMORI B2F",
-        "image_url": "https://source.unsplash.com/600x400/?world+cuisine+food&sig=35",
+        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=35",
         "description": "万博ベルギー館関連のブラッスリー。大手町駅直結のOOTEMORIに位置し、ムール貝のバター蒸し・フリッツ・ベルギービール300種が揃う本場さながらの空間。"
     },
     {
@@ -657,7 +657,7 @@
         "lat": 35.6495,
         "lng": 139.7006,
         "address": "東京都渋谷区猿楽町12-35",
-        "image_url": "https://source.unsplash.com/600x400/?italian+pasta+food&sig=36",
+        "image_url": "https://loremflickr.com/600/400/italian,food,pasta?lock=36",
         "description": "万博イタリア館関連。ローマ発祥の軽くてヘルシーなピザ「ピンサ」の専門店。代官山の閑静な住宅街に佇む本格派。"
     },
     {
@@ -675,7 +675,7 @@
         "lat": 35.6685,
         "lng": 139.6888,
         "address": "東京都渋谷区富ケ谷1-51-10",
-        "image_url": "https://source.unsplash.com/600x400/?portuguese+food+bacalhau&sig=37",
+        "image_url": "https://loremflickr.com/600/400/portuguese,food?lock=37",
         "description": "万博ポルトガル館関連。バカリャウ（干し鱈）など本格ポルトガル郷土料理が揃う予約必須の人気店。ポルトのヴィーニョ・ヴェルデも充実。"
     },
     {
@@ -692,7 +692,7 @@
         "lat": 35.6766,
         "lng": 139.7709,
         "address": "東京都中央区京橋2-6-14",
-        "image_url": "https://source.unsplash.com/600x400/?world+cuisine+food&sig=38",
+        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=38",
         "description": "日本唯一のクロアチア料理レストラン。パシュティツァーダ（牛肉の赤ワイン煮）やプーリカ（アドリア海の魚料理）など希少料理が揃う。"
     },
     {
@@ -709,7 +709,7 @@
         "lat": 35.6631,
         "lng": 139.7088,
         "address": "東京都渋谷区神宮前5-46-10",
-        "image_url": "https://source.unsplash.com/600x400/?french+cuisine+bistro&sig=39",
+        "image_url": "https://loremflickr.com/600/400/french,food,bistro?lock=39",
         "description": "万博フランス館関連のパリ発紅茶ブランド。表参道の優雅なサロンで100種類以上のフレーバーティーと焼き菓子が楽しめる。"
     },
     {
@@ -726,7 +726,7 @@
         "lat": 34.7035,
         "lng": 135.4958,
         "address": "大阪府大阪市北区梅田3-1-3 ルクア大阪 地下2階 バルチカ",
-        "image_url": "https://source.unsplash.com/600x400/?world+cuisine+food&sig=40",
+        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=40",
         "description": "万博セルビア館のオペレーションを手がけたチームの関連店。ルクア地下のバルチカにありピタ サ メソムなどセルビア料理が味わえる。大阪駅直結で便利。"
     },
     {
@@ -744,7 +744,7 @@
         "lat": 34.703,
         "lng": 135.4983,
         "address": "大阪府大阪市北区角田町8-7 阪急うめだ本店 B1F",
-        "image_url": "https://source.unsplash.com/600x400/?world+cuisine+food&sig=41",
+        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=41",
         "description": "万博英国館関連。コーンウォール産本場クロテッドクリームと極上スコーンが購入できる英国王室御用達ブランドの旗艦ショップ。手土産に最適。"
     },
     {
@@ -762,7 +762,7 @@
         "lat": 34.8183,
         "lng": 135.5714,
         "address": "大阪府茨木市元町1-23",
-        "image_url": "https://source.unsplash.com/600x400/?world+cuisine+food&sig=42",
+        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=42",
         "description": "万博オランダ館関連。オランダ語で「美味しい」を意味する店名のカフェ。パンネクック（オランダ式パンケーキ）やストロープワッフルが名物。"
     },
     {
@@ -781,7 +781,7 @@
         "lat": 35.67,
         "lng": 139.764,
         "address": "東京都中央区銀座7-8-1",
-        "image_url": "https://source.unsplash.com/600x400/?austrian+food+wiener+schnitzel&sig=43",
+        "image_url": "https://loremflickr.com/600/400/austrian,food?lock=43",
         "description": "オーストリア国家公認キュッヘンマイスター・神田真吾氏が手がける銀座の本格オーストリア料理店。ウィンナーシュニッツェルとターフェルシュピッツが看板。"
     },
     {
@@ -799,7 +799,7 @@
         "lat": 35.664,
         "lng": 139.7131,
         "address": "東京都港区南青山5-1-25",
-        "image_url": "https://source.unsplash.com/600x400/?austrian+food+wiener+schnitzel&sig=44",
+        "image_url": "https://loremflickr.com/600/400/austrian,food?lock=44",
         "description": "ウィーンの老舗カフェ「カフェ ラントマン」の日本店。フロイトやクリムトも通った伝説の店の味を青山で享受できる。ウィンナーシュニッツェルが人気。"
     },
     {
@@ -817,7 +817,7 @@
         "lat": 35.668,
         "lng": 139.715,
         "address": "東京都港区南青山2-27-18 青山エム・アールビルB1",
-        "image_url": "https://source.unsplash.com/600x400/?austrian+food+wiener+schnitzel&sig=45",
+        "image_url": "https://loremflickr.com/600/400/austrian,food?lock=45",
         "description": "ウィーンで修業を積んだシェフが振る舞う本格コース料理。南青山の隠れ家的地下空間でオーストリア料理の真髄を体験できるファインダイニング。"
     },
     {
@@ -835,7 +835,7 @@
         "lat": 35.6796,
         "lng": 139.762,
         "address": "東京都千代田区丸の内3-3-1 新東京ビル B1F",
-        "image_url": "https://source.unsplash.com/600x400/?german+food+schnitzel+beer&sig=46",
+        "image_url": "https://loremflickr.com/600/400/german,food,schnitzel?lock=46",
         "description": "ミュンヘン「ホフブロイハウス」の樽生ビールが飲める丸の内の本格ドイツ料理店。アイスバインやヴルスト盛合せがビールと抜群に合う。"
     },
     {
@@ -853,7 +853,7 @@
         "lat": 35.6738,
         "lng": 139.7694,
         "address": "東京都中央区銀座2丁目 並木通り",
-        "image_url": "https://source.unsplash.com/600x400/?german+food+schnitzel+beer&sig=47",
+        "image_url": "https://loremflickr.com/600/400/german,food,schnitzel?lock=47",
         "description": "銀座二丁目並木通りの隠れ家的ドイツ料理名店。シュヴァイネハクセ（豚すね肉ロースト）とドイツ産ビールのペアリングが評判。"
     },
     {
@@ -871,7 +871,7 @@
         "lat": 35.684,
         "lng": 139.7749,
         "address": "東京都中央区日本橋",
-        "image_url": "https://source.unsplash.com/600x400/?german+food+schnitzel+beer&sig=48",
+        "image_url": "https://loremflickr.com/600/400/german,food,schnitzel?lock=48",
         "description": "ミュンヘンの老舗ブランド「フランツィスカーナー」本格ヴァイスビアと日本橋で。プレッツェル・ヴルスト・アイスバインが揃う。"
     },
     {
@@ -890,7 +890,7 @@
         "lat": 35.6685,
         "lng": 139.696,
         "address": "東京都渋谷区神宮前",
-        "image_url": "https://source.unsplash.com/600x400/?hungarian+goulash+food&sig=49",
+        "image_url": "https://loremflickr.com/600/400/hungarian,food,goulash?lock=49",
         "description": "ハンガリー大使館も推薦する本格ダイニング。ハンガリー産パプリカで5〜6時間煮込んだグヤーシュと直輸入トカイワインが看板。"
     },
     {
@@ -908,7 +908,7 @@
         "lat": 35.6076,
         "lng": 139.6688,
         "address": "東京都目黒区自由が丘1-28-8 自由が丘デパート3階",
-        "image_url": "https://source.unsplash.com/600x400/?hungarian+goulash+food&sig=50",
+        "image_url": "https://loremflickr.com/600/400/hungarian,food,goulash?lock=50",
         "description": "自由が丘デパート3階に40年以上も構えるハンガリー家庭料理の老舗。グヤーシュ・パラチンタ（ハンガリー風クレープ）が絶品。"
     },
     {
@@ -927,7 +927,7 @@
         "lat": 35.6694,
         "lng": 139.688,
         "address": "東京都渋谷区富ヶ谷1-3-12 サンシティ富ヶ谷4階",
-        "image_url": "https://source.unsplash.com/600x400/?portuguese+food+bacalhau&sig=51",
+        "image_url": "https://loremflickr.com/600/400/portuguese,food?lock=51",
         "description": "代々木公園・代々木八幡駅徒歩1分の夜景が楽しめるポルトガル料理店。姉妹店「クリスチアノ」とともにバカリャウ（塩漬け干しタラ）料理を多彩に提供。"
     },
     {
@@ -946,7 +946,7 @@
         "lat": 35.6716,
         "lng": 139.766,
         "address": "東京都中央区銀座",
-        "image_url": "https://source.unsplash.com/600x400/?spanish+tapas+paella&sig=52",
+        "image_url": "https://loremflickr.com/600/400/spanish,food,tapas?lock=52",
         "description": "食べログ「スペイン料理百名店」選出の銀座バスク料理レストラン。スペイン人シェフのコース料理と厳選スペインワインのペアリングが評判。"
     },
     {
@@ -965,7 +965,7 @@
         "lat": 35.6982,
         "lng": 139.718,
         "address": "東京都新宿区河田町10-10",
-        "image_url": "https://source.unsplash.com/600x400/?spanish+tapas+paella&sig=53",
+        "image_url": "https://loremflickr.com/600/400/spanish,food,tapas?lock=53",
         "description": "大正時代の旧侯爵邸を改装した国登録有形文化財でモダン・スパニッシュを堪能。ムルシア地方出身シェフの特別なコースで非日常の夜を演出。"
     },
     {
@@ -983,7 +983,7 @@
         "lat": 35.6726,
         "lng": 139.7652,
         "address": "東京都中央区銀座",
-        "image_url": "https://source.unsplash.com/600x400/?spanish+tapas+paella&sig=54",
+        "image_url": "https://loremflickr.com/600/400/spanish,food,tapas?lock=54",
         "description": "パエリアコンクール優勝経験シェフが腕を振るう銀座の本格スペイン料理店。銀座駅徒歩1分でスペイン産ワインとパエリアを満喫できる。"
     },
     {
@@ -1001,7 +1001,7 @@
         "lat": 35.6432,
         "lng": 139.699,
         "address": "東京都目黒区中目黒",
-        "image_url": "https://source.unsplash.com/600x400/?spanish+tapas+paella&sig=55",
+        "image_url": "https://loremflickr.com/600/400/spanish,food,tapas?lock=55",
         "description": "職人が丁寧に炊き上げるパエリアが絶品と評判の中目黒スペイン料理店。スペイン本土直輸入食材とナチュラルワインが揃う居心地の良い一軒。"
     },
     {
@@ -1019,7 +1019,7 @@
         "lat": 35.6656,
         "lng": 139.7831,
         "address": "東京都中央区月島",
-        "image_url": "https://source.unsplash.com/600x400/?spanish+tapas+paella&sig=56",
+        "image_url": "https://loremflickr.com/600/400/spanish,food,tapas?lock=56",
         "description": "倉庫をリノベーションした開放的な空間で伝統的なスペイン料理とパエリアを楽しめる月島の人気スポット。テラス席からの眺めも爽快。"
     },
     {
@@ -1037,7 +1037,7 @@
         "lat": 35.6808,
         "lng": 139.7645,
         "address": "東京都千代田区丸の内2-7-3 東京ビルTOKIA 2F",
-        "image_url": "https://source.unsplash.com/600x400/?spanish+tapas+paella&sig=57",
+        "image_url": "https://loremflickr.com/600/400/spanish,food,tapas?lock=57",
         "description": "東京駅丸の内南口からすぐのTOKIA 2Fのスペインバル。新幹線ビューが楽しめるテラス席とタパス・ピンチョスが人気。"
     },
     {
@@ -1055,7 +1055,7 @@
         "lat": 34.6462,
         "lng": 135.5142,
         "address": "大阪府大阪市阿倍野区阿倍野筋1-1-43 あべのハルカス近鉄本店",
-        "image_url": "https://source.unsplash.com/600x400/?taiwanese+food+dumplings&sig=58",
+        "image_url": "https://loremflickr.com/600/400/taiwanese,food?lock=58",
         "description": "万博台湾館とも縁の深い台湾発セレクトショップ。雑貨・食品・イートインを併設し、台湾茶・乾物・オーガニック食材が揃う。あべのハルカス近鉄本店内でアクセス抜群。"
     },
     {
@@ -1073,7 +1073,7 @@
         "lat": 35.6698,
         "lng": 139.7631,
         "address": "東京都中央区銀座7-2 銀座コリドー街 1F",
-        "image_url": "https://source.unsplash.com/600x400/?turkish+food+kebab&sig=59",
+        "image_url": "https://loremflickr.com/600/400/turkish,food,kebab?lock=59",
         "description": "日本初のトルコ料理店としても知られる銀座の老舗。ケバブ・キョフテ・ドネルなど本場アナトリア料理をコリドー街の好立地で楽しめる。"
     },
     {
@@ -1092,7 +1092,7 @@
         "lat": 35.6736,
         "lng": 139.7376,
         "address": "東京都港区赤坂2-13-23 赤坂MYビル B1F",
-        "image_url": "https://source.unsplash.com/600x400/?turkish+food+kebab&sig=60",
+        "image_url": "https://loremflickr.com/600/400/turkish,food,kebab?lock=60",
         "description": "トルコ大使館至近の赤坂に位置する本格トルコ料理店。タンドゥル料理・シシカバブ・ピデが名物で外交官にも愛される一軒。駅から徒歩0分。"
     },
     {
@@ -1110,7 +1110,7 @@
         "lat": 35.6918,
         "lng": 139.7365,
         "address": "東京都新宿区市谷砂土原町",
-        "image_url": "https://source.unsplash.com/600x400/?turkish+food+kebab&sig=61",
+        "image_url": "https://loremflickr.com/600/400/turkish,food,kebab?lock=61",
         "description": "トルコ人オーナー一家が営む市ヶ谷の老舗トルコ料理店。ヨーグルトソースのケバブ「イスケンデルケバブ」とトルコアイスが絶品。"
     },
     {
@@ -1128,7 +1128,7 @@
         "lat": 35.667,
         "lng": 139.7438,
         "address": "東京都港区虎ノ門1-17-1 虎ノ門ヒルズ ビジネスタワー",
-        "image_url": "https://source.unsplash.com/600x400/?israeli+food+falafel&sig=62",
+        "image_url": "https://loremflickr.com/600/400/israeli,food?lock=62",
         "description": "駅直結・虎ノ門ヒルズのイスラエル家庭料理店。フムス・ファラフェル・シャクシュカなど手作り・無添加の本場イスラエル料理が揃う。"
     },
     {
@@ -1146,7 +1146,7 @@
         "lat": 35.6804,
         "lng": 139.7639,
         "address": "東京都千代田区丸の内",
-        "image_url": "https://source.unsplash.com/600x400/?israeli+food+falafel&sig=63",
+        "image_url": "https://loremflickr.com/600/400/israeli,food?lock=63",
         "description": "虎ノ門の人気イスラエル料理店「Ta-im」の丸の内店。ビジネス街のランチに本場フムスプレートとサンドイッチが人気。ベジタリアン対応も充実。"
     },
     {
@@ -1165,7 +1165,7 @@
         "lat": 35.6488,
         "lng": 139.7226,
         "address": "東京都渋谷区広尾5-14-14 第二大澤ビル 1F",
-        "image_url": "https://source.unsplash.com/600x400/?persian+food+rice&sig=64",
+        "image_url": "https://loremflickr.com/600/400/persian,food?lock=64",
         "description": "日本初のイラン料理専門店として知られる老舗が広尾に移転。コレッシュ（煮込み料理）・チェロケバブ・サフランご飯が絶品。在日イラン大使館関係者御用達。"
     },
     {
@@ -1184,7 +1184,7 @@
         "lat": 35.7305,
         "lng": 139.7147,
         "address": "東京都豊島区池袋",
-        "image_url": "https://source.unsplash.com/600x400/?middle+eastern+food+mezze&sig=65",
+        "image_url": "https://loremflickr.com/600/400/middle-eastern,food?lock=65",
         "description": "池袋にある希少なヨルダン・レヴァント料理専門店。ヨルダンの国民食マンサフ（ラム肉のヨーグルト煮込みご飯）やカブサが楽しめる。"
     },
     {
@@ -1203,7 +1203,7 @@
         "lat": 35.6582,
         "lng": 139.7244,
         "address": "東京都港区西麻布",
-        "image_url": "https://source.unsplash.com/600x400/?egyptian+food+foul&sig=66",
+        "image_url": "https://loremflickr.com/600/400/egyptian,food?lock=66",
         "description": "カイロ5つ星ホテルのシェフと元エジプト大使館専属シェフによる本格アラブ料理。コシャリ・モロヘイヤスープ・ハマムなどエジプト料理の真髄を六本木で堪能できる。"
     },
     {
@@ -1221,7 +1221,7 @@
         "lat": 35.7131,
         "lng": 139.704,
         "address": "東京都新宿区高田馬場4-13-9",
-        "image_url": "https://source.unsplash.com/600x400/?vietnamese+pho+banh+mi&sig=67",
+        "image_url": "https://loremflickr.com/600/400/vietnamese,food,pho?lock=67",
         "description": "ベトナム人オーナーが営む高田馬場の本場バインミー専門店。東京バインミーブームの先駆けで在日ベトナム人コミュニティからも絶大な支持。毎日焼く自家製バゲットが絶品。"
     },
     {
@@ -1239,7 +1239,7 @@
         "lat": 35.6467,
         "lng": 139.71,
         "address": "東京都渋谷区恵比寿",
-        "image_url": "https://source.unsplash.com/600x400/?vietnamese+pho+banh+mi&sig=68",
+        "image_url": "https://loremflickr.com/600/400/vietnamese,food,pho?lock=68",
         "description": "ベトナムから招へいしたシェフが手がける本格ベトナム料理チェーン旗艦店。フォー・バインミー・生春巻き・豚の角煮ご飯（コムスン）が人気。"
     },
     {
@@ -1257,7 +1257,7 @@
         "lat": 35.6862,
         "lng": 139.7656,
         "address": "東京都千代田区大手町1-2-1 OTEMACHIONE B1",
-        "image_url": "https://source.unsplash.com/600x400/?vietnamese+pho+banh+mi&sig=69",
+        "image_url": "https://loremflickr.com/600/400/vietnamese,food,pho?lock=69",
         "description": "大手町の洗練されたオフィス街に位置するバインミー＆フォー専門店。無添加・野菜たっぷりの体にやさしいベトナム料理をビジネスパーソンに提供。"
     },
     {
@@ -1275,7 +1275,7 @@
         "lat": 35.6616,
         "lng": 139.6682,
         "address": "東京都世田谷区北沢",
-        "image_url": "https://source.unsplash.com/600x400/?vietnamese+pho+banh+mi&sig=70",
+        "image_url": "https://loremflickr.com/600/400/vietnamese,food,pho?lock=70",
         "description": "下北沢のカルチャースポットに溶け込む個性派バインミー専門店。ベトナム産食材にこだわり、定番から創作系まで豊富なバリエーションが揃う。"
     },
     {
@@ -1292,7 +1292,7 @@
         "lat": 35.6291,
         "lng": 139.6794,
         "address": "東京都目黒区鷹番",
-        "image_url": "https://source.unsplash.com/600x400/?vietnamese+pho+banh+mi&sig=71",
+        "image_url": "https://loremflickr.com/600/400/vietnamese,food,pho?lock=71",
         "description": "学芸大学の住宅街に佇むスタンド型バインミー店。フランスパンに本場のなます・パテ・ハム・ハーブを詰め込んだ本格バインミーをテイクアウトで。"
     },
     {
@@ -1310,7 +1310,7 @@
         "lat": 35.7023,
         "lng": 139.6998,
         "address": "東京都新宿区大久保2-32-3 リスボンビル4F",
-        "image_url": "https://source.unsplash.com/600x400/?nepali+food+dal+bhat&sig=72",
+        "image_url": "https://loremflickr.com/600/400/nepali,food,curry?lock=72",
         "description": "食べログカレー百名店選出の本格ネパール民族料理店。ダルバート・モモ・チョイラが揃い、ネパール人コミュニティと日本のカレーマニア双方に絶大な人気を誇る。"
     },
     {
@@ -1328,7 +1328,7 @@
         "lat": 35.7014,
         "lng": 139.6982,
         "address": "東京都新宿区百人町2-10-9 新大久保イニシャルハウス 2F",
-        "image_url": "https://source.unsplash.com/600x400/?nepali+food+dal+bhat&sig=73",
+        "image_url": "https://loremflickr.com/600/400/nepali,food,curry?lock=73",
         "description": "新大久保の老舗ネパール居酒屋。ダルバート（豆スープ＋ご飯＋おかずの定食）と蒸し餃子モモが名物。ネパール人シェフによる本場の家庭の味が楽しめる。"
     },
     {
@@ -1346,7 +1346,7 @@
         "lat": 35.701,
         "lng": 139.696,
         "address": "東京都新宿区百人町 雑居ビル7F",
-        "image_url": "https://source.unsplash.com/600x400/?nepali+food+dal+bhat&sig=74",
+        "image_url": "https://loremflickr.com/600/400/nepali,food,curry?lock=74",
         "description": "大久保駅と新大久保駅の中間の雑居ビル7階に佇む穴場のネパール料理店。ネワール料理・タカリ料理など民族料理にこだわり、窯焼き料理とダルバートが看板。"
     },
     {
@@ -1364,7 +1364,7 @@
         "lat": 35.7335,
         "lng": 139.7393,
         "address": "東京都豊島区巣鴨",
-        "image_url": "https://source.unsplash.com/600x400/?nepali+food+dal+bhat&sig=75",
+        "image_url": "https://loremflickr.com/600/400/nepali,food,curry?lock=75",
         "description": "都内屈指のネパール料理名店とカレーマニアの間で知られる巣鴨の一軒。伝統料理「ディード」（そば粉の団子）・ダルバート・モモ・サデコが揃う本格派。"
     },
     {
@@ -1382,7 +1382,7 @@
         "lat": 35.6499,
         "lng": 139.7173,
         "address": "東京都渋谷区広尾5-18-8",
-        "image_url": "https://source.unsplash.com/600x400/?nepali+food+dal+bhat&sig=76",
+        "image_url": "https://loremflickr.com/600/400/nepali,food,curry?lock=76",
         "description": "ネパール餃子「モモ」と特製ダルバートが看板のおしゃれなワインバー。5種の豆を使うやさしいダール、ラム・マトンのカレー、自家製バートが揃う。外国人居住者が多い広尾の隠れ家。"
     },
     {
@@ -1400,7 +1400,7 @@
         "lat": 35.7127,
         "lng": 139.7044,
         "address": "東京都新宿区高田馬場3-5-5 3F",
-        "image_url": "https://source.unsplash.com/600x400/?uzbek+plov+central+asian+food&sig=77",
+        "image_url": "https://loremflickr.com/600/400/central-asian,food,plov?lock=77",
         "description": "日本唯一の本格プロフ釜で調理するウズベキスタン料理店。ラム肉・人参・レーズン入りのプロフを約3時間かけて炊き上げる。手打ちラグマン（麺料理）も絶品。"
     },
     {
@@ -1419,7 +1419,7 @@
         "lat": 35.721,
         "lng": 139.7617,
         "address": "東京都文京区根津1-1-19 シティハイツ根津 102",
-        "image_url": "https://source.unsplash.com/600x400/?uzbek+plov+central+asian+food&sig=78",
+        "image_url": "https://loremflickr.com/600/400/central-asian,food,plov?lock=78",
         "description": "根津駅徒歩2分の住宅街に佇む本格ウズベキスタン料理店。プロフ・ラグマン・ジズビズ（牛肉とピーマンの炒め物）が揃い、他店にはない希少メニューも楽しめる。"
     },
     {
@@ -1437,7 +1437,7 @@
         "lat": 35.708,
         "lng": 139.6665,
         "address": "東京都中野区新井1-36-9 岡田ビル 1F",
-        "image_url": "https://source.unsplash.com/600x400/?uzbek+plov+central+asian+food&sig=79",
+        "image_url": "https://loremflickr.com/600/400/central-asian,food,plov?lock=79",
         "description": "中野の住宅街にある中央アジア料理レストラン。ウズベキスタン語で「故郷」を意味する店名のとおり現地出身シェフが作る家庭の味。ラグマン・サムサ・プロフが看板。"
     },
     {
@@ -1454,7 +1454,7 @@
         "lat": 35.6736,
         "lng": 139.731,
         "address": "東京都港区赤坂7-9-6 MIMARU東京赤坂 1F",
-        "image_url": "https://source.unsplash.com/600x400/?uzbek+plov+central+asian+food&sig=80",
+        "image_url": "https://loremflickr.com/600/400/central-asian,food,plov?lock=80",
         "description": "赤坂のホテル（MIMARU）内のウズベキスタン料理店。人参の甘みとデーツが肉の旨味と溶合うウズベキスタンプロフが看板。外国人旅行者にも人気の立地。"
     },
     {
@@ -1472,7 +1472,7 @@
         "lat": 35.722,
         "lng": 139.7782,
         "address": "東京都台東区根岸2-18-11 ルート根岸第二ビル1・2F",
-        "image_url": "https://source.unsplash.com/600x400/?uzbek+plov+central+asian+food&sig=81",
+        "image_url": "https://loremflickr.com/600/400/central-asian,food,plov?lock=81",
         "description": "有名ホテル経験を持つウズベキスタン出身シェフが作る本格料理。プロフ・ラグマン・サムサをハラール対応で提供。鶯谷の穴場スポット。"
     },
     {
@@ -1490,7 +1490,7 @@
         "lat": 35.6585,
         "lng": 139.7024,
         "address": "東京都渋谷区渋谷2-24-12 渋谷スクランブルスクエア 13F",
-        "image_url": "https://source.unsplash.com/600x400/?spanish+tapas+paella&sig=82",
+        "image_url": "https://loremflickr.com/600/400/spanish,food,tapas?lock=82",
         "description": "渋谷スクランブルスクエア13Fに位置するマドリード発のスペイン料理の名門。本場そのままのピンチョス・パエリャ・生ハムを134m高空の絶景とともに楽しめる。"
     },
     {
@@ -1508,7 +1508,7 @@
         "lat": 35.6584,
         "lng": 139.702,
         "address": "東京都渋谷区渋谷2-24-12 渋谷スクランブルスクエア 12F",
-        "image_url": "https://source.unsplash.com/600x400/?lebanese+food+mezze&sig=83",
+        "image_url": "https://loremflickr.com/600/400/lebanese,food,mezze?lock=83",
         "description": "渋谷スクランブルスクエア12Fの地中海・アラビア料理レストラン。スパイス香るレバント料理とアラビア風のインテリアで非日常を演出。渋谷の夜景とともに中東の美食体験を。"
     },
     {
@@ -1526,7 +1526,7 @@
         "lat": 35.6718,
         "lng": 139.7649,
         "address": "東京都中央区銀座5-2-1 東急プラザ銀座 11F",
-        "image_url": "https://source.unsplash.com/600x400/?greek+food+moussaka+mezze&sig=84",
+        "image_url": "https://loremflickr.com/600/400/greek,food,moussaka?lock=84",
         "description": "シドニー発のモダンギリシャレストランが東急プラザ銀座11Fに上陸。ムサカ・シーフードメッゼ・ギリシャワインをスタイリッシュな空間で。銀座駅から徒歩1分の好立地。"
     },
     {
@@ -1544,7 +1544,7 @@
         "lat": 35.6934,
         "lng": 139.7068,
         "address": "東京都新宿区新宿",
-        "image_url": "https://source.unsplash.com/600x400/?greek+food+moussaka+mezze&sig=85",
+        "image_url": "https://loremflickr.com/600/400/greek,food,moussaka?lock=85",
         "description": "創業40年超の東京老舗ギリシャ料理店。ムサカ・スブラキ・タラモサラタなどギリシャ家庭料理の定番が揃い、在日ギリシャ人も通う本物の味。東新宿駅から徒歩3分の隠れ家。"
     },
     {
@@ -1562,7 +1562,7 @@
         "lat": 35.5633,
         "lng": 139.716,
         "address": "東京都大田区蒲田",
-        "image_url": "https://source.unsplash.com/600x400/?greek+food+moussaka+mezze&sig=86",
+        "image_url": "https://loremflickr.com/600/400/greek,food,moussaka?lock=86",
         "description": "元六本木の名店がギリシャ大使館関係者から愛された実力を携えて蒲田へ移転。ムサカ・ラムチョップ・ギリシャサラダなど本格料理がアットホームな雰囲気で楽しめる。"
     },
     {
@@ -1580,7 +1580,7 @@
         "lat": 35.6985,
         "lng": 139.7913,
         "address": "東京都台東区浅草橋",
-        "image_url": "https://source.unsplash.com/600x400/?greek+food+moussaka+mezze&sig=87",
+        "image_url": "https://loremflickr.com/600/400/greek,food,moussaka?lock=87",
         "description": "浅草橋のアットホームなギリシャ家庭料理店。ギリシャ人オーナーによる手作りムサカ・スパナコピタ（ほうれん草パイ）・ヨーグルトデザートが人気。"
     },
     {
@@ -1599,7 +1599,7 @@
         "lat": 35.6694,
         "lng": 139.7259,
         "address": "東京都港区赤坂7-5-56 ドイツ文化会館 1F",
-        "image_url": "https://source.unsplash.com/600x400/?german+food+schnitzel+beer&sig=88",
+        "image_url": "https://loremflickr.com/600/400/german,food,schnitzel?lock=88",
         "description": "ドイツ文化会館1Fの本格ドイツ＆オーストリア料理カフェレストラン。ヴィーナーシュニッツェル・ザワークラウト・ドイツビールを外交官や文化人に愛される上品な空間でいただける都内随一の中欧料理店。"
     }
 ]
