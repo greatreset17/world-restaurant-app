@@ -1,11 +1,9 @@
 import json
-import math
 import os
 from urllib.parse import quote_plus
 import folium
 import streamlit as st
 from streamlit_folium import st_folium
-from streamlit_geolocation import streamlit_geolocation
 
 # ─────────────────────────────────────────────
 # Page config
@@ -64,9 +62,6 @@ def tag_class(t):
 # ─────────────────────────────────────────────
 if "area" not in st.session_state:
     st.session_state["area"] = "関東（東京）"
-if "user_lat" not in st.session_state:
-    st.session_state["user_lat"] = None
-    st.session_state["user_lng"] = None
 
 # ─────────────────────────────────────────────
 # Header
@@ -137,35 +132,6 @@ st.session_state["area"] = selected_area
 area_key = "関東" if "関東" in selected_area else "関西"
 area_restaurants = [r for r in ALL_RESTAURANTS if r["area"] == area_key]
 
-# ─────────────────────────────────────────────
-# Current Location
-# ─────────────────────────────────────────────
-if "show_geo" not in st.session_state:
-    st.session_state["show_geo"] = False
-
-loc_col, _ = st.columns([2, 3])
-with loc_col:
-    # 位置情報取得済みなら「リセット」ボタン、未取得なら「取得」ボタン
-    if st.session_state.get("user_lat") and not st.session_state["show_geo"]:
-        if st.button("🔄 現在地をリセット", use_container_width=True):
-            st.session_state["user_lat"] = None
-            st.session_state["user_lng"] = None
-            st.rerun()
-    elif not st.session_state["show_geo"]:
-        if st.button("📍 現在地を取得", use_container_width=True):
-            st.session_state["show_geo"] = True
-            st.rerun()
-
-    # ボタンが押された後だけコンポーネントを表示（取得後は即消える）
-    if st.session_state["show_geo"]:
-        st.caption("📡 「Get Location」を押して位置情報を許可してください")
-        geo = streamlit_geolocation()
-        if geo and geo.get("latitude") and geo.get("longitude"):
-            st.session_state["user_lat"] = float(geo["latitude"])
-            st.session_state["user_lng"] = float(geo["longitude"])
-            st.session_state["show_geo"] = False
-            st.rerun()
-
 
 # ─────────────────────────────────────────────
 # Sidebar filters
@@ -214,49 +180,21 @@ map_col, card_col = st.columns([1, 1], gap="large")
 # Folium Map
 # ─────────────────────────────────────────────
 with map_col:
-    user_lat = st.session_state.get("user_lat")
-    user_lng = st.session_state.get("user_lng")
-
-    # 常にエリア中心で表示（現在地は赤マーカーで別途表示）
+    # 常にエリア中心で表示
     center = AREA_CENTERS[selected_area]
-    zoom = 12
 
     m = folium.Map(
         location=center,
-        zoom_start=zoom,
+        zoom_start=12,
         tiles="CartoDB dark_matter",
     )
 
-    # 現在地マーカー（赤・パルス）
-    if user_lat and user_lng:
-        folium.Marker(
-            location=[user_lat, user_lng],
-            popup="📍 現在地",
-            tooltip="現在地",
-            icon=folium.Icon(color="red", icon="map-marker", prefix="fa"),
-        ).add_to(m)
-
-        # 現在地から近い順に距離を付加
-        def haversine(r):
-            R = 6371000
-            lat1, lng1 = math.radians(user_lat), math.radians(user_lng)
-            lat2, lng2 = math.radians(r["lat"]), math.radians(r["lng"])
-            dlat = lat2 - lat1
-            dlng = lng2 - lng1
-            a = math.sin(dlat/2)**2 + math.cos(lat1)*math.cos(lat2)*math.sin(dlng/2)**2
-            return R * 2 * math.asin(math.sqrt(a))
-
     for r in filtered:
-        dist_str = ""
-        if user_lat and user_lng:
-            d = haversine(r)
-            dist_str = f"<br><span style='color:#a78bfa;font-size:12px;'>📍 現在地から約 {d/1000:.1f} km</span>"
         popup_html = f"""
         <div style="font-family:sans-serif;min-width:160px;">
           <b style="font-size:14px;">{r['name']}</b><br>
           <span style="color:#888;font-size:12px;">{r['country']} / {r['region']}</span><br>
           <span style="font-size:12px;">🚃 {r['nearest_station']} 徒歩{r['walk_minutes']}分</span>
-          {dist_str}
         </div>
         """
         folium.CircleMarker(
@@ -266,11 +204,12 @@ with map_col:
             fill=True,
             fill_color="#7c3aed",
             fill_opacity=0.85,
-            popup=folium.Popup(popup_html, max_width=240),
+            popup=folium.Popup(popup_html, max_width=220),
             tooltip=r["name"],
         ).add_to(m)
 
     st_folium(m, height=560, use_container_width=True)
+
 
 # ─────────────────────────────────────────────
 # Restaurant Cards
