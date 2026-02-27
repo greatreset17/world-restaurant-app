@@ -107,7 +107,10 @@ st.markdown("""
 }
 </style>
 <div style="padding: 12px 0 8px 0;">
-  <h1 class="hero-title">世界のレストランを、探索しよう。</h1>
+  <h1 class="hero-title">
+    <span style="display: inline-block;">世界のレストランを、</span>
+    <span style="display: inline-block;">探索しよう。</span>
+  </h1>
   <p class="hero-sub">
     <span>Discover Authentic World Cuisine in Japan</span>
     <span class="dot">◆</span>
