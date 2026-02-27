@@ -4,8 +4,8 @@ import os
 from urllib.parse import quote_plus
 import folium
 import streamlit as st
-import streamlit.components.v1 as components
 from streamlit_folium import st_folium
+from streamlit_geolocation import streamlit_geolocation
 
 # ─────────────────────────────────────────────
 # Page config
@@ -140,49 +140,13 @@ area_restaurants = [r for r in ALL_RESTAURANTS if r["area"] == area_key]
 # ─────────────────────────────────────────────
 # Current Location
 # ─────────────────────────────────────────────
-GEO_HTML = """
-<script>
-function getLocation() {
-    if (!navigator.geolocation) {
-        document.getElementById('geo-status').innerText = '⚠️ このブラウザは位置情報に対応していません';
-        return;
-    }
-    document.getElementById('geo-status').innerText = '📡 位置情報を取得中...';
-    navigator.geolocation.getCurrentPosition(
-        function(pos) {
-            const lat = pos.coords.latitude;
-            const lng = pos.coords.longitude;
-            document.getElementById('geo-status').innerText = '✅ 取得完了！地図を更新中...';
-            window.top.location.href = window.top.location.pathname +
-                '?user_lat=' + lat + '&user_lng=' + lng;
-        },
-        function(err) {
-            document.getElementById('geo-status').innerText = '❌ エラー: ' + err.message;
-        },
-        {enableHighAccuracy: true, timeout: 10000}
-    );
-}
-</script>
-<button onclick="getLocation()" style="
-    background: linear-gradient(135deg,#7c3aed,#4f46e5);
-    color:white; border:none; border-radius:8px;
-    padding:8px 18px; font-size:14px; cursor:pointer;
-    font-family:sans-serif; font-weight:600;">📍 現在地を取得</button>
-<p id="geo-status" style="color:#9ca3af; font-size:12px; margin:6px 0 0 0; font-family:sans-serif;">ボタンを押すと現在地を取得します</p>
-"""
-
+# 現在地ボタン
 loc_col, _ = st.columns([2, 3])
 with loc_col:
-    components.html(GEO_HTML, height=80)
-
-# URLパラメータから位置情報を取得
-try:
-    qp = st.query_params
-    if "user_lat" in qp and "user_lng" in qp:
-        st.session_state["user_lat"] = float(qp["user_lat"])
-        st.session_state["user_lng"] = float(qp["user_lng"])
-except Exception:
-    pass
+    geo = streamlit_geolocation()
+    if geo and geo.get("latitude") and geo.get("longitude"):
+        st.session_state["user_lat"] = float(geo["latitude"])
+        st.session_state["user_lng"] = float(geo["longitude"])
 
 # ─────────────────────────────────────────────
 # Sidebar filters
