@@ -152,8 +152,9 @@ function getLocation() {
         function(pos) {
             const lat = pos.coords.latitude;
             const lng = pos.coords.longitude;
-            document.getElementById('geo-status').innerText = '✅ 取得完了: ' + lat.toFixed(4) + ', ' + lng.toFixed(4);
-            window.parent.postMessage({type: 'geo', lat: lat, lng: lng}, '*');
+            document.getElementById('geo-status').innerText = '✅ 取得完了！地図を更新中...';
+            window.top.location.href = window.top.location.pathname +
+                '?user_lat=' + lat + '&user_lng=' + lng;
         },
         function(err) {
             document.getElementById('geo-status').innerText = '❌ エラー: ' + err.message;
@@ -172,21 +173,7 @@ function getLocation() {
 
 loc_col, _ = st.columns([2, 3])
 with loc_col:
-    clicked = components.html(GEO_HTML, height=80)
-
-# postMessage を受け取るための隠しコンポーネント
-listener_html = """
-<script>
-window.addEventListener('message', function(e) {
-    if (e.data && e.data.type === 'geo') {
-        const params = new URLSearchParams(window.location.search);
-        window.parent.location.href = window.parent.location.pathname +
-            '?user_lat=' + e.data.lat + '&user_lng=' + e.data.lng;
-    }
-});
-</script>
-"""
-components.html(listener_html, height=0)
+    components.html(GEO_HTML, height=80)
 
 # URLパラメータから位置情報を取得
 try:
