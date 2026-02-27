@@ -140,13 +140,32 @@ area_restaurants = [r for r in ALL_RESTAURANTS if r["area"] == area_key]
 # ─────────────────────────────────────────────
 # Current Location
 # ─────────────────────────────────────────────
-# 現在地ボタン
+if "show_geo" not in st.session_state:
+    st.session_state["show_geo"] = False
+
 loc_col, _ = st.columns([2, 3])
 with loc_col:
-    geo = streamlit_geolocation()
-    if geo and geo.get("latitude") and geo.get("longitude"):
-        st.session_state["user_lat"] = float(geo["latitude"])
-        st.session_state["user_lng"] = float(geo["longitude"])
+    # 位置情報取得済みなら「リセット」ボタン、未取得なら「取得」ボタン
+    if st.session_state.get("user_lat") and not st.session_state["show_geo"]:
+        if st.button("🔄 現在地をリセット", use_container_width=True):
+            st.session_state["user_lat"] = None
+            st.session_state["user_lng"] = None
+            st.rerun()
+    elif not st.session_state["show_geo"]:
+        if st.button("📍 現在地を取得", use_container_width=True):
+            st.session_state["show_geo"] = True
+            st.rerun()
+
+    # ボタンが押された後だけコンポーネントを表示（取得後は即消える）
+    if st.session_state["show_geo"]:
+        st.caption("📡 「Get Location」を押して位置情報を許可してください")
+        geo = streamlit_geolocation()
+        if geo and geo.get("latitude") and geo.get("longitude"):
+            st.session_state["user_lat"] = float(geo["latitude"])
+            st.session_state["user_lng"] = float(geo["longitude"])
+            st.session_state["show_geo"] = False
+            st.rerun()
+
 
 # ─────────────────────────────────────────────
 # Sidebar filters
