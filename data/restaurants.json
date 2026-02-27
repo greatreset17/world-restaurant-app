@@ -1474,5 +1474,41 @@
         "address": "東京都台東区根岸2-18-11 ルート根岸第二ビル1・2F",
         "image_url": "https://picsum.photos/seed/halal_sakura/600/400",
         "description": "有名ホテル経験を持つウズベキスタン出身シェフが作る本格料理。プロフ・ラグマン・サムサをハラール対応で提供。鶯谷の穴場スポット。"
+    },
+    {
+        "id": 82,
+        "name": "Jose Luis 渋谷（ホセルイス）",
+        "area": "関東",
+        "country": "スペイン",
+        "region": "南欧",
+        "tags": [
+            "予約必須",
+            "テラス席あり"
+        ],
+        "nearest_station": "渋谷",
+        "walk_minutes": 1,
+        "lat": 35.6585,
+        "lng": 139.7024,
+        "address": "東京都渋谷区渋谷2-24-12 渋谷スクランブルスクエア 13F",
+        "image_url": "https://picsum.photos/seed/joseluis/600/400",
+        "description": "渋谷スクランブルスクエア13Fに位置するマドリード発のスペイン料理の名門。本場そのままのピンチョス・パエリャ・生ハムを134m高空の絶景とともに楽しめる。"
+    },
+    {
+        "id": 83,
+        "name": "CARVAAN TOKYO（カールヴァーン）",
+        "area": "関東",
+        "country": "スペイン",
+        "region": "南欧",
+        "tags": [
+            "テラス席あり",
+            "ワインセレクションあり"
+        ],
+        "nearest_station": "渋谷",
+        "walk_minutes": 3,
+        "lat": 35.6584,
+        "lng": 139.702,
+        "address": "東京都渋谷区渋谷2-24-12 渋谷スクランブルスクエア 12F",
+        "image_url": "https://picsum.photos/seed/carvaan/600/400",
+        "description": "渋谷スクランブルスクエア12Fの地中海・スペイン料理レストラン。スパイス香る地中海料理とスペインワインを渋谷の夜景とともに。Jose Luisの1フロア下でシーン違いに楽しめる姉妹的存在。"
     }
 ]
