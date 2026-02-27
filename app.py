@@ -144,23 +144,26 @@ with st.sidebar:
     st.markdown("<hr class='section-divider'>", unsafe_allow_html=True)
 
     all_regions = sorted(set(r["region"] for r in area_restaurants))
-    selected_regions = st.multiselect("🗺 地域・文化圏", options=all_regions, placeholder="すべての地域")
+    selected_regions = st.multiselect("🗺 地域・文化圏", options=all_regions, placeholder="すべての地域", key="sel_regions")
 
     if selected_regions:
         country_pool = [r for r in area_restaurants if r["region"] in selected_regions]
     else:
         country_pool = area_restaurants
     all_countries = sorted(set(r["country"] for r in country_pool))
-    selected_countries = st.multiselect("🏳 国名", options=all_countries, placeholder="すべての国")
+    selected_countries = st.multiselect("🏳 国名", options=all_countries, placeholder="すべての国", key="sel_countries")
 
     st.markdown("<hr class='section-divider'>", unsafe_allow_html=True)
 
     all_tags = sorted(set(tag for r in area_restaurants for tag in r["tags"]))
-    selected_tags = st.multiselect("🏷 特徴タグ", options=all_tags, placeholder="すべてのタグ")
+    selected_tags = st.multiselect("🏷 特徴タグ", options=all_tags, placeholder="すべてのタグ", key="sel_tags")
 
     st.markdown("<hr class='section-divider'>", unsafe_allow_html=True)
 
     if st.button("🔄 フィルターをリセット", use_container_width=True):
+        st.session_state["sel_regions"] = []
+        st.session_state["sel_countries"] = []
+        st.session_state["sel_tags"] = []
         st.rerun()
 
 # ─────────────────────────────────────────────
