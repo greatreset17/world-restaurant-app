@@ -15,7 +15,7 @@
         "lat": 35.6736,
         "lng": 139.739,
         "address": "東京都港区赤坂2-12-11 シャルマン赤坂 2F",
-        "image_url": "https://loremflickr.com/600/400/hungarian,food,goulash?lock=1",
+        "image_url": "https://picsum.photos/seed/dobro/600/400",
         "description": "駐日ハンガリー大使も推奨する赤坂の老舗。グヤーシュ、パプリカチキン、ソーセージ盛合せが看板。ハンガリー産ワインも充実。"
     },
     {
@@ -70,7 +70,7 @@
         "lat": 35.6767,
         "lng": 139.7436,
         "address": "東京都千代田区永田町2丁目",
-        "image_url": "https://loremflickr.com/600/400/polish,food?lock=4",
+        "image_url": "https://picsum.photos/seed/animrumru/600/400",
         "description": "2024年10月オープン。中世から受け継がれるポーランドの伝統レシピをシェフが現代的に昇華したコース料理。国会議事堂近く。"
     },
     {
@@ -197,7 +197,7 @@
         "lat": 34.605,
         "lng": 135.5133,
         "address": "大阪府大阪市住吉区苅田9-1-21 1F",
-        "image_url": "https://loremflickr.com/600/400/nepali,food,curry?lock=11",
+        "image_url": "https://picsum.photos/seed/momo/600/400",
         "description": "万博出店でも噂されたネパール料理店。香り高いビリヤニと、ネパール式蒸し餃子モモが名物。本格スパイス使いが癖になる。"
     },
     {
@@ -586,7 +586,7 @@
         "lat": 35.7011,
         "lng": 139.741,
         "address": "東京都新宿区神楽坂3-6-63 佐藤ビル 2階",
-        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=32",
+        "image_url": "https://picsum.photos/seed/palinka/600/400",
         "description": "万博チェコ館・ハンガリー館とも縁の深い神楽坂の本格バー。チェコのレネカクテルとハンガリーの蒸留酒「パーリンカ」を中心に中欧のお酒が一堂に揃う。"
     },
     {
@@ -744,7 +744,7 @@
         "lat": 34.703,
         "lng": 135.4983,
         "address": "大阪府大阪市北区角田町8-7 阪急うめだ本店 B1F",
-        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=41",
+        "image_url": "https://picsum.photos/seed/roddas/600/400",
         "description": "万博英国館関連。コーンウォール産本場クロテッドクリームと極上スコーンが購入できる英国王室御用達ブランドの旗艦ショップ。手土産に最適。"
     },
     {
@@ -762,7 +762,7 @@
         "lat": 34.8183,
         "lng": 135.5714,
         "address": "大阪府茨木市元町1-23",
-        "image_url": "https://loremflickr.com/600/400/food,restaurant?lock=42",
+        "image_url": "https://picsum.photos/seed/lekker/600/400",
         "description": "万博オランダ館関連。オランダ語で「美味しい」を意味する店名のカフェ。パンネクック（オランダ式パンケーキ）やストロープワッフルが名物。"
     },
     {
@@ -908,7 +908,7 @@
         "lat": 35.6076,
         "lng": 139.6688,
         "address": "東京都目黒区自由が丘1-28-8 自由が丘デパート3階",
-        "image_url": "https://loremflickr.com/600/400/hungarian,food,goulash?lock=50",
+        "image_url": "https://picsum.photos/seed/kitchencountry/600/400",
         "description": "自由が丘デパート3階に40年以上も構えるハンガリー家庭料理の老舗。グヤーシュ・パラチンタ（ハンガリー風クレープ）が絶品。"
     },
     {
@@ -1001,7 +1001,7 @@
         "lat": 35.6432,
         "lng": 139.699,
         "address": "東京都目黒区中目黒",
-        "image_url": "https://loremflickr.com/600/400/spanish,food,tapas?lock=55",
+        "image_url": "https://picsum.photos/seed/agrado/600/400",
         "description": "職人が丁寧に炊き上げるパエリアが絶品と評判の中目黒スペイン料理店。スペイン本土直輸入食材とナチュラルワインが揃う居心地の良い一軒。"
     },
     {
